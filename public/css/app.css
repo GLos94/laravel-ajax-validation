@@ -10908,7 +10908,7 @@ a.text-dark:focus {
 body {
   width: 100vw;
   height: 100vh;
-  background: green;
+  background: grey;
   color: white;
 }
 
@@ -10916,14 +10916,16 @@ a {
   color: white;
 }
 
+.app,
 .container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: 100%;
 }
 
-.container > * {
-  margin: auto;
+.app .card-body,
+.app .card-header,
+.container .card-body,
+.container .card-header {
+  background: green !important;
 }
 

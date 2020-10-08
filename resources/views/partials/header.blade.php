@@ -1,3 +1,6 @@
 <header>
-  <h1>HEADER</h1>
+  <div class="">
+    HEADER
+  </div>
+  <a class="btn btn-primary" href="{{ route('post.create') }}">CREATE</a>
 </header>
